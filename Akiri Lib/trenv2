@@ -1,9 +1,9 @@
-local Ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Roblox-UI-Libs/main/Akiri%20Lib/Akiri%20Lib%20Source.lua"))()
+local Ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/movingfeds/Roblox-UI-Libs/main/Akiri%20Lib/Akiri%20Lib%20Source.lua"))()
 local Ui = Library
 --Window1.SendNotification(Type, "Text Here", Duration) -- Types = Warning, Error
 
 Library.CreateLoader(
-    "Loader1", 
+    "Tren", 
     Vector2.new(300, 250)
 );
 local Window1 = Library.Window(
@@ -14,9 +14,9 @@ local Window1 = Library.Window(
 local Tab1 = Window1:Tab("Tab1")
 local Section1 = Tab1:Section("Section1", "Left")
 
---Tab1:AddPlayerlist()
---Tab1:AddESPPreview()
---Window1:Watermark()
+Tab1:AddPlayerlist()
+Tab1:AddESPPreview()
+Window1:Watermark()
 
 local Label1 = Section1:Label(
     "Label1"
